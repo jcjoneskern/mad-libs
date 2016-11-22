@@ -1,77 +1,85 @@
 body {
-  font-family: 'Libre Franklin', sans-serif;
-  background-color: #8f9cba;
+  font-family: 'Ubuntu Mono', monospace;
+  color: whitesmoke;
 }
 h1 {
-  font-family: 'Passion One', cursive;
-  color: #273b5b;
-  font-weight: normal;
+  color: #000;
+  text-align: center;
+}
+main {
+  border: 1px solid black;
+  background-color: black;
+  width: 80%;
+  min-width: 650px;
+  padding: 0 16px 20px 16px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 0 auto;
 }
 input {
   display: block;
-  margin: .2em;
+  margin: .4em;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  font-family: 'Ubuntu Mono', monospace;
 }
 ul {
-  list-style: none;
   padding: 0;
-  margin: 0;
+  text-align: center;
 }
 li {
+  list-style: none;
   display: inline-block;
   padding: 1em 2em;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-  width: 38px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  background-color: #f2f2f4;
-}
-main {
-  width: 60%;
-  min-width: 650px;
-  border: 1px solid black;
-  padding: 0 20px 16px 20px;
-  border-top-right-radius: 10px;
-  background-color: #f2f2f4;
-}
-#form {
-  background-color: #f2f2f4;
-  width: 102px;
-  height: 2px;
-  float: left;
-  margin-top: -1px;
-  margin-left: 1px;
-}
-#story {
-  background-color: #f2f2f4;
-  width: 102px;
-  height: 2px;
-  float: left;
-  margin-top: -1px;
-  margin-left: 109px;
 }
 span {
-  color: #edc163;
-  font-weight: bold;
+  color: #77d85f;
+  font-size: 1.1em;
 }
-.cap {
-  text-transform: capitalize;
+.terminal {
+  text-align: center;
+  padding-top: 3px;
+  height: 20px;
+  background-color: #4f4f4f;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-left: -16px;
+  padding-right: 32px;
+}
+.btn {
+  float: left;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  margin: 0 .25em;
+  color: #4f4f4f;
+}
+#close {
+  background-color: #d8675f;
+  line-height: 85%;
+}
+#small {
+  background-color: #f9f57f;
+    line-height: 60%;
+}
+#big {
+  background-color: #77d85f;
+  line-height: 95%;
+  font-size: .8em;
 }
 a {
+  color: #000;
   text-decoration: none;
-  color: #273b5b;
-  font-weight: bold;
 }
 a:hover {
-  color: #6685b7;
+  color: #77d85f;
 }
 #button {
-  background-color: #273b5b;
-  color: #fff;
-  border-radius: 3px;
-  border: none;
-}
-#button:hover {
-  background-color: #6685b7;
+  border: 0;
+  background-color: #77d85f;
+  color: #4f4f4f;
+  border-radius: 5px;
 }
