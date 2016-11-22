@@ -1,10 +1,17 @@
+<div id="form"></div>
+<main>
 <form ng-controller="formController">
-  <input type="text" ng-model="formEntries.noun" placeholder="noun">
-  <input type="text" ng-model="formEntries.adjective" placeholder="adjective">
-  <input type="text">
-  <input type="text">
-  <input type="text">
-  <input type="text">
-  <input type="text">
+  <input type="text" ng-model="formEntries.school" placeholder="Adjective">
+  <input type="text" ng-model="formEntries.language" placeholder="Programming language">
+  <input type="text" ng-model="formEntries.framework" placeholder="Progamming framework">
+  <input type="text" ng-model="formEntries.shucks" placeholder="Dismayed exclamation">
+  <input type="text" ng-model="formEntries.verb" placeholder="Verb">
+  <input type="text" ng-model="formEntries.classdesc" placeholder="Adjective">
+  <input type="text" ng-model="formEntries.name" placeholder="Name">
+  <input type="text" ng-model="formEntries.small" placeholder="Synonym for small">
+  <input type="text" ng-model="formEntries.surprised" placeholder="Synonym for surprised">
+  <input type="text" ng-model="formEntries.number" placeholder="Number">
+  <input type="text" ng-model="formEntries.framedesc" placeholder="Adjective">
   <input type="submit" ng-click="receiveInputs(formEntries)">
 </form>
+</main>
