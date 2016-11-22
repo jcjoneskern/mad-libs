@@ -1,5 +1,11 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: #8f9cba;
+}
+h1 {
+  font-family: 'Passion One', cursive;
+  color: #273b5b;
+  font-weight: normal;
 }
 input {
   display: block;
@@ -17,31 +23,40 @@ li {
   border-right: 1px solid black;
   border-left: 1px solid black;
   width: 38px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #f2f2f4;
 }
 main {
   width: 60%;
+  min-width: 650px;
   border: 1px solid black;
-  padding: 16px 20px 16px 20px;
+  padding: 0 20px 16px 20px;
+  border-top-right-radius: 10px;
+  background-color: #f2f2f4;
 }
 #form {
-  background-color: #fff;
+  background-color: #f2f2f4;
   width: 102px;
-  height: 5px;
+  height: 2px;
   float: left;
-  margin-top: -2px;
+  margin-top: -1px;
   margin-left: 1px;
 }
 #story {
-  background-color: #fff;
+  background-color: #f2f2f4;
   width: 102px;
-  height: 5px;
+  height: 2px;
   float: left;
-  margin-top: -2px;
+  margin-top: -1px;
   margin-left: 109px;
 }
 span {
-  color: #4d7cc6;
+  color: #edc163;
   font-weight: bold;
+}
+.cap {
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
@@ -50,4 +65,13 @@ a {
 }
 a:hover {
   color: #6685b7;
+}
+#button {
+  background-color: #273b5b;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+#button:hover {
+  background-color: #6685b7;
 }

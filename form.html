@@ -1,6 +1,7 @@
 <div id="form"></div>
-<main>
-<form ng-controller="formController">
+<main ng-controller="formController">
+  <p>Please enter the specified parts of speech below, then click submit to view your completed story.</p>
+<form>
   <input type="text" ng-model="formEntries.school" placeholder="Adjective">
   <input type="text" ng-model="formEntries.language" placeholder="Programming language">
   <input type="text" ng-model="formEntries.framework" placeholder="Progamming framework">
@@ -12,6 +13,6 @@
   <input type="text" ng-model="formEntries.surprised" placeholder="Synonym for surprised">
   <input type="text" ng-model="formEntries.number" placeholder="Number">
   <input type="text" ng-model="formEntries.framedesc" placeholder="Adjective">
-  <input type="submit" ng-click="receiveInputs(formEntries)">
+  <input id="button" type="submit" ng-click="receiveInputs(formEntries)">
 </form>
 </main>
