@@ -1,12 +1,10 @@
-<form>
-<input type="text">
-<input type="text">
-<input type="text">
-<input type="text">
-<input type="text">
-<input type="text">
-<input type="text">
-<input type="submit">
-
-<!-- display block -->
+<form ng-controller="formController">
+  <input type="text" ng-model="formEntries.noun" placeholder="noun">
+  <input type="text" ng-model="formEntries.adjective" placeholder="adjective">
+  <input type="text">
+  <input type="text">
+  <input type="text">
+  <input type="text">
+  <input type="text">
+  <input type="submit" ng-click="receiveInputs(formEntries)">
 </form>
