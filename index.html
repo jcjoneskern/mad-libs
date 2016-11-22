@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="madModule">
+  <head>
+    <title>Mad Libs</title>
+    <script src="angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#/form">Form</a>
+      <a href="#/story">Story</a>
+    </nav>
+    <div ng-view="">Writing story...</div>
+  </body>
+</html>
